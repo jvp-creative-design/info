@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="JVP Creative Design & Architecture - Philippines & International Multidisciplinary Studio shaping the built environment and the digital world with equal craft and precision.">
+    <title>JVP Creative Design</title>
+    
+    <!-- Google Fonts: Cormorant Garamond (Serif & Italic) + Plus Jakarta Sans (Sans-Serif) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/logo/favicon.ico">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header / Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="brand-logo">
+                <img src="assets/logo/logo.png" alt="Creative Design & Architecture" class="logo-img">
+                <span class="logo-divider"></span>
+                <div class="logo-text">
+                    <span class="logo-line-1">CREATIVE DESIGN</span>
+                    <span class="logo-line-2">&amp; ARCHITECTURE</span>
+                </div>
+            </a>
+
+            <nav class="nav-menu">
+                <ul class="nav-links">
+                    <li><a href="#home" class="nav-link active">HOME</a></li>
+                    <li><a href="#about" class="nav-link">ABOUT</a></li>
+                    <li><a href="#services" class="nav-link">SERVICES</a></li>
+                    <li><a href="#portfolio" class="nav-link">PROJECTS</a></li>
+                    <li><a href="#contact" class="nav-link">CONTACT</a></li>
+                </ul>
+            </nav>
+
+            <div class="nav-cta">
+                <a href="#contact" class="btn-gold-outline">GET IN TOUCH</a>
+            </div>
+
+            <!-- Mobile Hamburger Toggle -->
+            <button class="mobile-nav-toggle" id="menuToggle" aria-label="Toggle Navigation Menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+        </div>
+
+    </header>
+
+    <!-- Mobile Sidebar Overlay -->
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- Mobile Sidebar -->
+    <aside class="mobile-sidebar" id="mobileSidebar">
+        <button class="sidebar-close" id="sidebarClose" aria-label="Close Menu">
+            <span class="close-bar"></span>
+            <span class="close-bar"></span>
+        </button>
+
+        <div class="sidebar-brand">
+            <a href="#home" class="sidebar-brand-logo">
+                <img src="assets/logo/logo.png" alt="JVP Creative Design &amp; Architecture" class="sidebar-logo-img">
+            </a>
+            <span class="sidebar-brand-sub">Creative Design &amp; Architecture</span>
+        </div>
+
+        <nav class="sidebar-nav">
+            <ul class="sidebar-nav-links">
+                <li><a href="#home" class="sidebar-link" data-num="01">HOME</a></li>
+                <li><a href="#about" class="sidebar-link" data-num="02">ABOUT</a></li>
+                <li><a href="#services" class="sidebar-link" data-num="03">SERVICES</a></li>
+                <li><a href="#portfolio" class="sidebar-link" data-num="04">PROJECTS</a></li>
+                <li><a href="#contact" class="sidebar-link" data-num="05">CONTACT</a></li>
+            </ul>
+        </nav>
+
+        <div class="sidebar-footer">
+            <a href="#contact" class="btn-gold-solid sidebar-cta">GET IN TOUCH</a>
+            <span class="sidebar-footer-tag">Philippines &amp; International</span>
+        </div>
+    </aside>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section id="home" class="hero-section">
+            <div class="hero-bg-overlay"></div>
+            <div class="hero-bg-image" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=2000&auto=format&fit=crop');"></div>
+
+            <!-- Right Edge Vertical Badge -->
+            <div class="hero-vertical-badge">
+                <span>ARCHITECTURE</span>
+            </div>
+
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="location-tag">
+                        <span class="accent-line"></span>
+                        <span class="tag-text">PHILIPPINES &amp; INTERNATIONAL</span>
+                    </div>
+
+                    <h1 class="hero-headline">
+                        Where Space<br>
+                        <em class="gold-italic">Meets</em> Screen.
+                    </h1>
+
+                    <p class="hero-description">
+                        JVP Creative Design &amp; Architecture shapes the built environment and the digital world with equal craft and precision.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#portfolio" class="btn-gold-solid">VIEW OUR WORK</a>
+                        <a href="#contact" class="btn-white-outline">GET IN TOUCH</a>
+                    </div>
+                </div>
+
+                <!-- Hero Bottom Bar: Counter Stats & Scroll Indicator -->
+                <div class="hero-bottom-bar">
+                    <div class="hero-stats">
+                        <div class="stat-box">
+                            <span class="stat-number" data-target="80">80<span class="plus">+</span></span>
+                            <span class="stat-label">PROJECTS</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-box">
+                            <span class="stat-number" data-target="18">18<span class="plus">+</span></span>
+                            <span class="stat-label">YEARS</span>
+                        </div>
+                        <div class="stat-divider"></div>
+                        <div class="stat-box">
+                            <span class="stat-number" data-target="8">8</span>
+                            <span class="stat-label">COUNTRIES</span>
+                        </div>
+                    </div>
+
+                    <a href="#about" class="scroll-indicator">
+                        <span class="scroll-text">SCROLL</span>
+                        <span class="scroll-line"></span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT SECTION ("ABOUT THE STUDIO") -->
+        <section id="about" class="about-section">
+            <div class="section-container">
+                <div class="about-grid">
+                    <!-- Left Imagery Composition -->
+                    <div class="about-visuals">
+                        <div class="main-image-wrapper">
+                            <img src="assets/images/picture-1.png" alt="Luxury Architectural Interior" class="about-main-img">
+                            
+                            <!-- Overlay EST Badge -->
+                            <div class="est-badge">
+                                <img src="assets/logo/logo.png" alt="JVP Creative Design &amp; Architecture" class="est-badge-logo">
+                                <div class="badge-sub">EST. 2012</div>
+                            </div>
+
+                            <!-- Inset Blueprint Image -->
+                            <div class="inset-image-wrapper">
+                                <img src="assets/images/profile-1.png" alt="Profile" class="inset-img">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right Narrative Content -->
+                    <div class="about-content">
+                        <div class="section-tagline">
+                            ABOUT THE STUDIO
+                        </div>
+
+                        <h2 class="section-heading">
+                            Crafting Space,<br>
+                            <em class="gold-italic">Crafting Presence</em>
+                        </h2>
+
+                        <div class="about-body">
+                            <p>
+                                JVP Creative Design &amp; Architecture is a Philippines-based multidisciplinary studio serving clients locally and internationally. We believe architecture and digital design are two sides of the same coin — both shape how people experience the world.
+                            </p>
+                            <p>
+                                From landmark residential projects to high-performance websites, our work is defined by an obsession with craft, an editorial eye, and deep respect for the people who will inhabit our creations.
+                            </p>
+                        </div>
+
+                        <div class="about-cta">
+                            <a href="#contact" class="link-gold-arrow">FOLLOW OUR WORK <i class="fa-solid fa-arrow-right-long"></i></a>
+                        </div>
+
+                        <div class="about-stats-grid">
+                            <div class="about-stat-item">
+                                <div class="stat-val">80<span class="plus">+</span></div>
+                                <div class="stat-lbl">PROJECTS COMPLETED</div>
+                            </div>
+                            <div class="about-stat-item">
+                                <div class="stat-val">8<span class="plus">+</span></div>
+                                <div class="stat-lbl">COUNTRIES SERVED</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SERVICES SECTION ("WHAT WE DO") -->
+        <section id="services" class="services-section">
+            <div class="section-container">
+                <div class="services-header">
+                    <div class="header-left">
+                        <div class="section-tagline">
+                            <span class="accent-dash">—</span> WHAT WE DO
+                        </div>
+                        <h2 class="section-heading">
+                            A Studio Built on<br>
+                            <em class="gold-italic">Two Disciplines</em>
+                        </h2>
+                    </div>
+                    <div class="header-right">
+                        <a href="#portfolio" class="link-gold-arrow">ALL SERVICES <i class="fa-solid fa-arrow-right-long"></i></a>
+                    </div>
+                </div>
+
+                <div class="services-list">
+                    <!-- Service 01 -->
+                    <div class="service-row" id="service-01">
+                        <div class="service-index">01</div>
+                        <div class="service-details">
+                            <h3 class="service-title">Architectural Design & 3D Rendering</h3>
+                            <p class="service-description">
+                                From concept to construction — residential, commercial, and mixed-use projects designed with precision and purpose.
+                            </p>
+                            <div class="service-tags">
+                                <span class="tag-pill">RESIDENTIAL</span>
+                                <span class="tag-pill">COMMERCIAL</span>
+                                <span class="tag-pill">MASTER PLANNING</span>
+                            </div>
+                        </div>
+                        <div class="service-action">
+                            <span class="row-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+
+                    <!-- Service 02 -->
+                    <div class="service-row" id="service-02">
+                        <div class="service-index">02</div>
+                        <div class="service-details">
+                            <h3 class="service-title">Interior Design</h3>
+                            <p class="service-description">
+                                Spatial design that transforms rooms into experiences. Every material, surface, and detail chosen intentionally.
+                            </p>
+                            <div class="service-tags">
+                                <span class="tag-pill">INTERIORS</span>
+                                <span class="tag-pill">SPACE PLANNING</span>
+                            </div>
+                        </div>
+                        <div class="service-action">
+                            <span class="row-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+
+                    <!-- Service 03 -->
+                    <div class="service-row" id="service-03">
+                        <div class="service-index">03</div>
+                        <div class="service-details">
+                            <h3 class="service-title">Web Design</h3>
+                            <p class="service-description">
+                                Digital presence crafted with the same rigor as our built work. Clean, fast, and visually distinctive websites.
+                            </p>
+                            <div class="service-tags">
+                                <span class="tag-pill">UI/UX</span>
+                                <span class="tag-pill">FUNCTIONALITY</span>
+                            </div>
+                        </div>
+                        <div class="service-action">
+                            <span class="row-arrow"><i class="fa-solid fa-arrow-right"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PORTFOLIO SECTION -->
+        <section id="portfolio" class="portfolio-section">
+            <div class="section-container">
+                <div class="portfolio-header">
+                    <div>
+                        <div class="section-tagline">— OUR WORK</div>
+                        <h2 class="section-heading"><em class="gold-italic">Projects</em></h2>
+                    </div>
+                    
+                    <!-- Portfolio Filters -->
+                    <div class="portfolio-filters">
+                        <button class="filter-btn active" data-filter="all">ALL</button>
+                        <button class="filter-btn" data-filter="architecture">ARCHITECTURE</button>
+                        <button class="filter-btn" data-filter="interior">INTERIOR</button>
+                        <button class="filter-btn" data-filter="web">WEB DESIGN</button>
+                    </div>
+                </div>
+
+                <div class="portfolio-grid">
+                    <!-- Item 1: -->
+                    <div class="portfolio-card" data-category="architecture">
+                        <div class="card-media">
+                            <img src="assets/images/project-1.png" alt="Photo">
+                            <div class="card-overlay">
+                                <span class="card-category">ARCHITECTURE</span>
+                                <h3 class="card-title">Private Villa</h3>
+                                <p class="card-desc">Tagaytay, Philippines</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 2: -->
+                    <div class="portfolio-card" data-category="interior">
+                        <div class="card-media">
+                            <img src="assets/images/amaia_smdc_residences.png" alt="Photo">
+                            <div class="card-overlay">
+                                <span class="card-category">INTERIOR DESIGN</span>
+                                <h3 class="card-title">Amaia & SMDC Residences</h3>
+                                <p class="card-desc">Philippines, NCR</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 3: -->
+                    <div class="portfolio-card" data-category="architecture">
+                        <div class="card-media">
+                            <img src="assets/images/project-2.png" alt="Photo" class="portfolio-img-contain">
+                            <div class="card-overlay">
+                                <span class="card-category">ARCHITECTURE</span>
+                                <h3 class="card-title">Cabin Glass House</h3>
+                                <p class="card-desc">US, Virgin Island</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 4: -->
+                    <div class="portfolio-card" data-category="architecture">
+                        <div class="card-media">
+                            <img src="assets/images/project-3.png" alt="Photo">
+                            <div class="card-overlay">
+                                <span class="card-category">ARCHITECTURE</span>
+                                <h3 class="card-title">Asteria Bhopal Villa</h3>
+                                <p class="card-desc">Bhopal, India</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 5: -->
+                    <div class="portfolio-card" data-category="architecture">
+                        <div class="card-media">
+                            <img src="assets/images/project-4.png" alt="Photo">
+                            <div class="card-overlay">
+                                <span class="card-category">ARCHITECTURE</span>
+                                <h3 class="card-title">Private Residences</h3>
+                                <p class="card-desc">British, Virgin Island</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 6: -->
+                    <div class="portfolio-card" data-category="architecture">
+                        <div class="card-media">
+                            <img src="assets/images/project-5.png" alt="Photo" class="portfolio-img-contain">
+                            <div class="card-overlay">
+                                <span class="card-category">ARCHITECTURE</span>
+                                <h3 class="card-title">Modern Minimalist</h3>
+                                <p class="card-desc">British, Virgin Island</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Item 7: -->
+                    <div class="portfolio-card" data-category="architecture">
+                        <div class="card-media">
+                            <img src="assets/images/project-7.png" alt="Photo">
+                            <div class="card-overlay">
+                                <span class="card-category">ARCHITECTURE</span>
+                                <h3 class="card-title">Private Villa</h3>
+                                <p class="card-desc">Alfonso Cavite, Philippines</p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Item 8: -->
+                    <div class="portfolio-card" data-category="architecture">
+                        <div class="card-media">
+                            <img src="assets/images/project-8.png" alt="Photo">
+                            <div class="card-overlay">
+                                <span class="card-category">ARCHITECTURE</span>
+                                <h3 class="card-title">Hotel & Beach Resort</h3>
+                                <p class="card-desc">British, Virgin Island</p>
+                            </div>
+                        </div>
+                    </div>   
+
+                    <!-- Item 8: -->
+                    <div class="portfolio-card" data-category="web">
+                        <div class="card-media">
+                            <img src="assets/images/web-project-1.png" alt="Photo">
+                            <div class="card-overlay">
+                                <span class="card-category">WEB DESIGN</span>
+                                <h3 class="card-title">Real Estate Property Listing & Management</h3>
+                                <p class="card-desc">Custom Web Development</p>
+                            </div>
+                        </div>
+                    </div>   
+
+                </div>
+
+                <!-- PREVIOUS PROJECTS (within same section) -->
+                <div class="prev-projects-header" style="margin-top: 5rem;">
+                    <div class="header-left">
+                        <div class="section-tagline">
+                            <span class="accent-dash">—</span> PREVIOUS PROJECTS
+                        </div>
+                        <h2 class="section-heading">
+                            A Legacy of <em class="gold-italic">International Work</em>
+                        </h2>
+                        <p class="prev-projects-intro">
+                            Over 18 years of delivering landmark architectural and engineering projects across four continents — from luxury residences in the Arabian Gulf to civic infrastructure in the Middle East and beyond.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="prev-projects-list">
+
+                    <!-- Project 01 -->
+                    <div class="prev-project-row">
+                        <div class="prev-project-index">01</div>
+                        <div class="prev-project-details">
+                            <h3 class="prev-project-title">Commerial Buildings, Private Villas, Hotel & Beach Resort</h3>
+                            <p class="prev-project-location"><i class="fa-solid fa-location-dot"></i> British, Virigin Island</p>
+                        </div>
+                        <div class="prev-project-tags">
+                            <span class="tag-pill">LUXURY</span>
+                            <span class="tag-pill">RESIDENTIAL</span>
+                        </div>
+
+                    </div>
+
+                    <!-- Project 02 -->
+                    <div class="prev-project-row">
+                        <div class="prev-project-index">02</div>
+                        <div class="prev-project-details">
+                            <h3 class="prev-project-title">Oil & Gas Project - Architectural & Civil</h3>
+                            <p class="prev-project-location"><i class="fa-solid fa-location-dot"></i> Punta Europa, Malabo, Equatorial Guinea, Africa</p>
+                        </div>
+                        <div class="prev-project-tags">
+                            <span class="tag-pill">ENGINEERING</span>
+                            <span class="tag-pill">INFRASTRUCTURE</span>
+                        </div>
+
+                    </div>
+
+                    <!-- Project 03 -->
+                    <div class="prev-project-row">
+                        <div class="prev-project-index">03</div>
+                        <div class="prev-project-details">
+                            <h3 class="prev-project-title">Al Habtoor Polo Club &amp; Villas</h3>
+                            <p class="prev-project-location"><i class="fa-solid fa-location-dot"></i> Dubai, UAE</p>
+                        </div>
+                        <div class="prev-project-tags">
+                            <span class="tag-pill">LEISURE</span>
+                            <span class="tag-pill">VILLAS</span>
+                        </div>
+
+                    </div>
+
+                    <!-- Project 04 -->
+                    <div class="prev-project-row">
+                        <div class="prev-project-index">04</div>
+                        <div class="prev-project-details">
+                            <h3 class="prev-project-title">ARV3 International Shipping Line General Arrangement Design</h3>
+                            <p class="prev-project-location"><i class="fa-solid fa-location-dot"></i> Sembawang Shipyard, Singapore</p>
+                        </div>
+                        <div class="prev-project-tags">
+                            <span class="tag-pill">MARINE</span>
+                            <span class="tag-pill">ENGINEERING</span>
+                        </div>
+
+                    </div>
+
+                    <!-- Project 05 -->
+                    <div class="prev-project-row">
+                        <div class="prev-project-index">05</div>
+                        <div class="prev-project-details">
+                            <h3 class="prev-project-title">Commercial &amp; Shopping Mall</h3>
+                            <p class="prev-project-location"><i class="fa-solid fa-location-dot"></i> Kuala Lumpur, Malaysia</p>
+                        </div>
+                        <div class="prev-project-tags">
+                            <span class="tag-pill">COMMERCIAL</span>
+                            <span class="tag-pill">RETAIL</span>
+                        </div>
+
+                    </div>
+
+                    <!-- Project 06 -->
+                    <div class="prev-project-row">
+                        <div class="prev-project-index">06</div>
+                        <div class="prev-project-details">
+                            <h3 class="prev-project-title">High Rise Condominium &amp; Residential Villas</h3>
+                            <p class="prev-project-location"><i class="fa-solid fa-location-dot"></i> New Delhi, India</p>
+                        </div>
+                        <div class="prev-project-tags">
+                            <span class="tag-pill">HIGHRISE</span>
+                            <span class="tag-pill">RESIDENTIAL</span>
+                        </div>
+
+                    </div>
+
+                    <!-- Project 07 -->
+                    <div class="prev-project-row">
+                        <div class="prev-project-index">07</div>
+                        <div class="prev-project-details">
+                            <h3 class="prev-project-title">Government Projects &amp; Residential House of the President</h3>
+                            <p class="prev-project-location"><i class="fa-solid fa-location-dot"></i> Bata, Equatorial Guinea, Africa</p>
+                        </div>
+                        <div class="prev-project-tags">
+                            <span class="tag-pill">GOVERNMENT</span>
+                            <span class="tag-pill">CIVIC</span>
+                        </div>
+
+                    </div>
+
+                    <!-- Project 08 -->
+                    <div class="prev-project-row">
+                        <div class="prev-project-index">08</div>
+                        <div class="prev-project-details">
+                            <h3 class="prev-project-title">New Doha International Airport Utilities &amp; Civil Structures</h3>
+                            <p class="prev-project-location"><i class="fa-solid fa-location-dot"></i> Doha, Qatar</p>
+                        </div>
+                        <div class="prev-project-tags">
+                            <span class="tag-pill">INFRASTRUCTURE</span>
+                            <span class="tag-pill">CIVIL</span>
+                        </div>
+
+                    </div>
+
+                    <!-- Project 9 -->
+                    <div class="prev-project-row">
+                        <div class="prev-project-index">09</div>
+                        <div class="prev-project-details">
+                            <h3 class="prev-project-title">Commercial, Residential Highrise Building &amp; Private Swimming Pool</h3>
+                            <p class="prev-project-location"><i class="fa-solid fa-location-dot"></i> Palm Jumeirah Dubai, UAE</p>
+                        </div>
+                        <div class="prev-project-tags">
+                            <span class="tag-pill">COMMERCIAL</span>
+                            <span class="tag-pill">RESIDENTIAL</span>
+                        </div>
+
+                    </div>
+
+
+
+
+                    
+
+                </div>
+            </div>
+        </section>
+
+        <!-- START SOMETHING NEW (CTA BANNER) -->
+        <section class="cta-banner-section">
+            <div class="cta-bg-image" style="background-image: url('https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=2000&auto=format&fit=crop');"></div>
+            <div class="cta-overlay"></div>
+
+            <div class="cta-container">
+                <div class="section-tagline">START SOMETHING NEW</div>
+
+                <h2 class="cta-heading">
+                    Follow Our<br>
+                    <em class="gold-italic">Journey.</em>
+                </h2>
+
+                <p class="cta-description">
+                    Stay connected with JVP Creative Design &amp; Architecture on our social channels for design releases, spatial concepts, and digital developments.
+                </p>
+
+                <div class="cta-actions">
+                    <a href="#contact" class="btn-gold-solid">GET IN TOUCH</a>
+                    <a href="#portfolio" class="btn-white-outline">SEE OUR WORK</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT & SOCIAL CHANNELS SECTION -->
+        <section id="contact" class="social-section">
+            <div class="section-container">
+                <div class="social-section-header">
+                    <div class="section-tagline">— CONTACT US</div>
+                    <h2 class="section-heading">
+                        Get in <em class="gold-italic">Touch</em>
+                    </h2>
+                    <p class="social-intro">
+                        Reach out directly via email or message, or explore our studio's architectural renders and digital engineering.
+                    </p>
+                </div>
+
+                <div class="social-cards-grid">
+
+                    <!-- Direct Gmail -->
+                    <div class="social-card highlight-email">
+                        <div class="social-card-top">
+                            <span class="social-icon"><i class="fa-regular fa-envelope"></i></span>
+                            <span class="social-platform">GMAIL</span>
+                        </div>
+                        <div class="social-card-body">
+                            <h3 class="social-handle">jvpcreativedesign@gmail.com</h3>
+                            <p class="social-desc">General Inquiries &amp; Projects</p>
+                        </div>
+                        <div class="social-card-actions">
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=jvpcreativedesign@gmail.com" target="_blank" rel="noopener" class="card-btn-primary">
+                                <span>OPEN GMAIL</span>
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                            <button class="card-btn-copy" data-copy="jvpcreativedesign@gmail.com" title="Copy Email">
+                                <i class="fa-regular fa-copy"></i>
+                                <span class="copy-text">COPY</span>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- WhatsApp -->
+                    <div class="social-card">
+                        <div class="social-card-top">
+                            <span class="social-icon"><i class="fa-brands fa-whatsapp"></i></span>
+                            <span class="social-platform">WHATSAPP</span>
+                        </div>
+                        <div class="social-card-body">
+                            <h3 class="social-handle">+63 919 436 0480</h3>
+                            <p class="social-desc">Quick Chat &amp; Discussions</p>
+                        </div>
+                        <div class="social-card-actions">
+                            <a href="https://wa.me/639194360480" target="_blank" rel="noopener" class="card-btn-primary">
+                                <span>START CHAT</span>
+                                <i class="fa-solid fa-arrow-right-long"></i>
+                            </a>
+                            <button class="card-btn-copy" data-copy="+639194360480" title="Copy Number">
+                                <i class="fa-regular fa-copy"></i>
+                                <span class="copy-text">COPY</span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="footer-container">
+            <div class="footer-top-grid">
+                <!-- Brand Column -->
+                <div class="footer-brand-col">
+                    <a href="#home" class="footer-brand-logo-link">
+                        <img src="assets/logo/logo.png" alt="JVP Creative Design &amp; Architecture" class="footer-logo-img">
+                    </a>
+                    <div class="footer-sublogo">Creative Design &amp; Architecture</div>
+                    <div class="footer-tagline-italic">Philippines &amp; International</div>
+                </div>
+
+                <!-- Services Column -->
+                <div class="footer-links-col">
+                    <h4 class="footer-col-title">SERVICES</h4>
+                    <ul class="footer-links">
+                        <li><a href="#services">Architectural Design</a></li>
+                        <li><a href="#services">Interior Design</a></li>
+                        <li><a href="#services">Web Design</a></li>
+                        <li><a href="#services">UI/UX Design</a></li>
+                    </ul>
+                </div>
+
+                <!-- Company Column -->
+                <div class="footer-links-col">
+                    <h4 class="footer-col-title">COMPANY</h4>
+                    <ul class="footer-links">
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Column -->
+                <div class="footer-links-col">
+                    <h4 class="footer-col-title">CONTACT</h4>
+                    <ul class="footer-info-list">
+                        <li>Philippines</li>
+                        <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=jvpcreativedesign@gmail.com" target="_blank" rel="noopener" class="footer-email">jvpcreativedesign@gmail.com</a></li>
+                        <li>Available Worldwide</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    &copy; 2026 JVP Creative Design &amp; Architecture. All rights reserved.
+                </div>
+                <div class="footer-location">
+                    Philippines · International
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox-overlay" id="lightboxOverlay" role="dialog" aria-modal="true" aria-label="Image Lightbox">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close Lightbox">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <button class="lightbox-arrow lightbox-prev" id="lightboxPrev" aria-label="Previous Image">
+            <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <div class="lightbox-content">
+            <img src="" alt="" class="lightbox-img" id="lightboxImg">
+            <div class="lightbox-caption" id="lightboxCaption">
+                <span class="lightbox-category" id="lightboxCategory"></span>
+                <span class="lightbox-title" id="lightboxTitle"></span>
+                <span class="lightbox-location" id="lightboxLocation"></span>
+            </div>
+            <div class="lightbox-counter" id="lightboxCounter"></div>
+        </div>
+
+        <button class="lightbox-arrow lightbox-next" id="lightboxNext" aria-label="Next Image">
+            <i class="fa-solid fa-chevron-right"></i>
+        </button>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
