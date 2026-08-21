@@ -1695,7 +1695,12 @@ button, input, select, textarea {
     }
 
     .inset-image-wrapper {
-        display: none;
+        display: block;
+        position: absolute;
+        bottom: -18px;
+        right: 0;
+        width: 130px;
+        height: 90px;
     }
 
     .about-stats-grid {
